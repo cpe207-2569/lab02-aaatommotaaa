@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: cornsilk;
+}
+
+span {
+  color: #100075;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 1000;
+  font-size: 60px;
+  text-shadow: 2px 2px 6px rgb(118, 118, 118);
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.dotted {
+  background-color: #47f0ff50;
+  border-radius: 20px;
+  border-style: dotted;
+  padding: 20px;
+  color: #100075;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Noto Sans Thai", sans-serif;
+}
+
+.solid {
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+  padding: 0px;
+  color: #100075;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Noto Sans Thai", sans-serif;
+  background-color: rgba(230, 144, 247, 0.421);
+  width: 30%;
+}
+
+.navbar {
+  background: #100075;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: rgb(230, 144, 247);
+  font-family: "Bitcount Grid Double", system-ui;
+  font-size: 30px;
+}
+
+.menu a {
+  color: white;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.thai {
+  font-family: "Noto Sans Thai", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-variation-settings: "wdth" 100;
+}
+
+.bit {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
